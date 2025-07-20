@@ -21,8 +21,10 @@ jobs:
 
       - name: Move current repo into Vencord plugins
         run: |
-          mkdir -p vencord/src/plugins/$(basename $GITHUB_REPOSITORY)
-          cp -r . vencord/src/plugins/$(basename $GITHUB_REPOSITORY)
+          PLUGIN_NAME=$(basename $GITHUB_REPOSITORY)
+          mkdir -p vencord/src/plugins/$PLUGIN_NAME
+          shopt -s extglob
+          cp -r !(vencord|.git|.github) vencord/src/plugins/$PLUGIN_NAME/
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
