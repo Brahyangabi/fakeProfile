@@ -3,7 +3,7 @@
   <h1><img src="https://i.imgur.com/iDlsg7L.png" alt="Lumi Logo" width="25"><strong>・fakeProfile</strong></h1>
   An <strong>all-in-one</strong></a> plugin to customize your Discord profile
   <br>
-  <a href="https://github.com/gujarathisampath/fakeProfile"><img src="https://flagicons.lipis.dev/flags/4x3/us.svg" alt="en_US" width="25"></a>
+  <a href="https://github.com/TheLumiDevs/fakeProfile"><img src="https://flagicons.lipis.dev/flags/4x3/us.svg" alt="en_US" width="25"></a>
   <a href="./docs/vi/README.md"><img src="https://flagicons.lipis.dev/flags/4x3/vn.svg" alt="vi_VN" width="25"></a>
   <a href="./docs/ru/README.md"><img src="https://flagicons.lipis.dev/flags/4x3/ru.svg" alt="ru_RU" width="25"></a>
   <br>
@@ -17,7 +17,7 @@
   <img src="https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white" alt="CSS"></a>
   <a href="https://discord.gg/ffmkewQ4R7"><img src="https://img.shields.io/badge/Discord-%235865F2.svg?style=for-the-badge&logo=discord&logoColor=white" alt="Discord Server"></a>
   <br>
-  <a href="https://github.com/gujarathisampath/fakeProfile/commits/main/"><img src="https://img.shields.io/github/last-commit/gujarathisampath/fakeProfile?&style=for-the-badge&color=FFFFFF&logoColor=D9E0EE&labelColor=42A5F5%22width=%22200"></a>
+  <a href="https://github.com/TheLumiDevs/fakeProfile/commits/main/"><img src="https://img.shields.io/github/last-commit/TheLumiDevs/fakeProfile?&style=for-the-badge&color=FFFFFF&logoColor=D9E0EE&labelColor=42A5F5%22width=%22200"></a>
   <br>
   <h6><strong>Support For There Clients</strong></h6>
   <a href="https://github.com/pyoncord/Bunny"><img src="https://i.imgur.com/YjtQqBQ.png" alt="Pyoncord" width="50"></a>
@@ -95,7 +95,7 @@ Look into [tutorial.md](/docs/tutorial.md) for tutorial information.
 Thanks for all your support for this project.
 
 <p align="center">
-  <a href="https://github.com/gujarathisampath/fakeProfile/graphs/contributors" style="pointer-events: none; cursor: default;"><img src="https://contrib.rocks/image?repo=gujarathisampath/fakeProfile" alt="Contributors" width="200">
+  <a href="https://github.com/TheLumiDevs/fakeProfile/graphs/contributors" style="pointer-events: none; cursor: default;"><img src="https://contrib.rocks/image?repo=TheLumiDevs/fakeProfile" alt="Contributors" width="200">
   </a>
 </p>
 
@@ -104,8 +104,8 @@ Thanks for all your support for this project.
 If you feel loved or interested in this project, you can leave us a **star** and share this project with people who have the same needs as you. That will be a great motivation for us to continue developing this project to make it become even better. Thank you so much.
 
 <p align="center">
-  <a href="https://github.com/gujarathisampath/fakeProfile" style="pointer-events: none; cursor: default;">
-    <img src="https://m3-markdown-badges.vercel.app/stars/2/2//gujarathisampath/fakeProfile" alt="Leave us a star" width="200">
+  <a href="https://github.com/TheLumiDevs/fakeProfile" style="pointer-events: none; cursor: default;">
+    <img src="https://m3-markdown-badges.vercel.app/stars/2/2//TheLumiDevs/fakeProfile" alt="Leave us a star" width="200">
   </a>
 </p>
 
