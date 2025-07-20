@@ -3,9 +3,9 @@ description: Build the plugin to ensure it works with TypeScript Discord mod cli
 
 on:
   push:
-    branches: [main, master]
+    branches: [main, nightly]
   pull_request:
-    branches: [main, master]
+    branches: [main, nightly]
   workflow_dispatch:
 
 jobs:
