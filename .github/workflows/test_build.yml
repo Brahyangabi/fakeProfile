@@ -36,6 +36,9 @@ jobs:
       - name: Install pnpm
         run: npm install -g pnpm
 
+      - name: Print pnpm version
+        run: pnpm --version
+
       - name: Install dependencies
         working-directory: vencord
         run: pnpm install
