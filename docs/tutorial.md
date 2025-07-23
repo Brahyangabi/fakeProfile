@@ -1,3 +1,5 @@
+# fakeProfile Tutorial
+
 > [!WARNING]
 > All actions will do in Discord server by the bot and these changes will be applied only on fakeProfile's side server not Discord's.
 > **TO SEE CHANGES YOU NEED INSTALL PLUGIN. YOU WILL NOT SEE ANY RESULTS WITHOUT PLUGIN, CHECK [installation.md](/docs/installation.md) FOR INSTALLATION INFORMATION.**
@@ -9,9 +11,9 @@
 <br>
 
 - Go to [#command](https://discord.com/channels/1117373291095662623/1215640671457771540)
-- Use `/profile banner upload` command like image below:
+- Use `/banner upload` command like image below:
 
- <img src="https://i.imgur.com/AtYO0kW.png" alt="profile banner upload">
+ <img src="/docs/assets/banner_upload.png" alt="profile banner upload">
 
 - All that's left for you is to wait until your request is approved in the [#fakeprofile-logs](https://discord.com/channels/1117373291095662623/1215640664373465129) and wait 2 mins or reload manually and done.
 
@@ -24,9 +26,9 @@
 <br>
 
 - Go to [#command](https://discord.com/channels/1117373291095662623/1215640671457771540)
-- Use `/profile avatar upload` command like image below:
+- Use `/avatar upload` command like image below:
 
- <img src="https://i.imgur.com/dl6Qh4C.png" alt="profile avatar upload">
+ <img src="/docs/assets/avatar_upload.png" alt="profile avatar upload">
 
 - All that's left for you is to wait until your request is approved in the [#fakeprofile-logs](https://discord.com/channels/1117373291095662623/1215640664373465129) and wait 2 mins or reload manually and done.
 </details>
@@ -50,6 +52,9 @@
 </details>
 
 ### 4. How to choose default discord badges or request a custom badge?
+
+> [!WARNING]
+> You can request(add) badges only limited to 5.
 
 <details closed>
 <summary>Choose default badges</summary>

@@ -1,8 +1,8 @@
 #!/bin/sh
 
 LIBRARIES='git nodejs npm'
-VENCORD_DIRECTORY='VeeeCord/'
-VENCORD_URL='https://github.com/gujarathisampath/VeeeCord.git'
+VENCORD_DIRECTORY='Vencord/'
+VENCORD_URL='git clone https://github.com/Vendicated/Vencord.git'
 FAKEPROFILE_URL='https://github.com/gujarathisampath/fakeProfile.git'
 DISTRIB="$(python3 -c "import platform;print(platform.uname().node)")" #echo "Distribution: $DISTRIB" | And $DISTRIB is only working for linux :)
 
@@ -14,7 +14,7 @@ customClientsPrint() {
 
 customClients() {
     while true; do
-        read -p "Do you have Vesktop client? [Y/N]: " yn
+        read -p "Do you have Vesktop desktop client? [Y/N]: " yn
         case $yn in
             [Yy]* ) customClientsPrint; break;;
             [Nn]* ) echo "Starting inject command then. Choose Install Vencord -> Path of installed Discord" && sudo pnpm inject; break;;

@@ -1,26 +1,59 @@
 # Vencord DEV Build
+> [!NOTE]
+> If you don't know how to do manually build of Vencord dev, please choose installer. But there's no guarantee that it'll work properly because Veecord is updating not so fast.
 ## Windows
-### Installer
+#### Installer
 - Join to our [Discord server](https://discord.gg/ffmkewQ4R7) and then go to `#install-and-info` for get installer.
 
 ### 1. Requirements
 
-- The version that you'll use is **Vencord DEV Build**. If you don't know how to install then you can [click here](https://docs.vencord.dev/installing/) to read the installation instructions, but consider use `https://github.com/gujarathisampath/VeeeCord.git` instead of `https://github.com/Vendicated/Vencord.git` when you're cloning, because VeeeCord have modified version with CSP for fakeProfile.
+- First of all you need install these things: [Git](https://git-scm.com/downloads), [Node.js](https://nodejs.org/en/download/), [pnpm](https://pnpm.io/installation)
+- Make sure that all of them are added to your PATH, you will need it.
 
-### 2. Install Plugin
+- To verify correct installation, run the following commands. All 3 should print the version of the respective software without errors:
 
-- You don't need to do that, modified client VeeeCord already have this plugin.
+```shell
+git --version
+node --version
+pnpm --version
+```
 
-### 3. How to update fakeProfile plugin?
+- Now cloning repository in a convenient folder which you can remember to go in:
+```shell
+cd Documents
+```
+```shell
+git clone https://github.com/Vendicated/Vencord
+cd Vencord
+```
 
-- Go to `VeeeCord/` in adress bar type **cmd**, enter and type in Command Shell this:
+2. Installing Dependencies
+
+- Now for installing dependencies we using `pnpm` package manager, follow this command to install it:
+```shell
+pnpm install --frozen-lockfile
+```
+
+- Vencord might add, remove or update dependencies at any time. Thus, you might receive errors like Cannot find package "foobar" imported from ... after updating. *If this happens, you should run the same command once again to update the installed dependencies.*
+
+### 3. Install Plugin & Building
+
+- First of all make sure that you had followed steps in `Requirements` paragraph.
+
+- Then you need clone repository in path `src/userplugins/`(it's highly recommended because you need also update your Vencord build with command `git pull`, it's preventing changes in `src/plugins` folder) using this repository url: `https://github.com/TheLumiDevs/fakeProfile.git`.
+
+- And after cloning and installing dependencies you need do `pnpm build`.
+
+### 4. How to update fakeProfile plugin?
+
+- Go to `Vencord/` in adress bar type **cmd**, enter and type in Command Shell this:
 
 ```shell
 git pull
 ```
 
 ```shell
-pnpm i # Devs of Vencord may have changed some dependencies, so do it to not get broken VeeeCord. :)
+pnpm i # Devs of Vencord may have changed some dependencies, so do it to not get broken Vencordsw. :)
 ```
 
 - Then type:
