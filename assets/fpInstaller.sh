@@ -2,7 +2,7 @@
 
 LIBRARIES='git nodejs npm'
 VENCORD_DIRECTORY='Vencord/'
-VENCORD_URL='git clone https://github.com/Vendicated/Vencord.git'
+VENCORD_URL='https://github.com/Vendicated/Vencord.git'
 FAKEPROFILE_URL='https://github.com/gujarathisampath/fakeProfile.git'
 DISTRIB="$(python3 -c "import platform;print(platform.uname().node)")" #echo "Distribution: $DISTRIB" | And $DISTRIB is only working for linux :)
 
