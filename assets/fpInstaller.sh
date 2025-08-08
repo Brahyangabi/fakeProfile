@@ -43,20 +43,20 @@ do
 done
 
 if [ -d "$EXIST_DIR" ]; then
-    echo "You have already installed Vencord, checking for updating..."
+    echo "You have already installed Equicord, checking for updating..."
     cd $EXIST_DIR && git pull
     pnpm i
-    pnpm build; break
+    pnpm build;
 else
     # Checks of distributions
     # (It means it will work only for Arch Linux, but this will required for non-arch user to install these libraries)
-    if [[ $DISTRIB == 'archlinux' ]]; then
-        sudo pacman -S $LIBRARIES
-    else
-        echo "Looks like you're using not Arch Linux. Please install these libraries such as: $LIBRARIES. You need install it by commands that you have in your own distribution."
-        echo "P.S: In the next proccess you need type password from sudo command, which mean this script only for Linux users not Windows..."
-        read -n 1 -p "Press [Enter] if you did install of these libraries " mainmenuinput
-    fi
+    #if [[ $DISTRIB == 'archlinux' ]]; then
+    #    sudo pacman -S $LIBRARIES
+    #else
+    #    echo "Looks like you're using not Arch Linux. Please install these libraries such as: $LIBRARIES. You need install it by commands that you have in your own distribution."
+    #    echo "P.S: In the next proccess you need type password from sudo command, which mean this script only for Linux users not Windows..."
+    #    read -n 1 -p "Press [Enter] if you did install of these libraries " mainmenuinput
+    #fi
 
     vencordInstall
 fi
