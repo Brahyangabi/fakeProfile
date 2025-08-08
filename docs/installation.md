@@ -9,6 +9,7 @@
 -   [Linux](#linux)
 -   [Extension](#extension)
 -   [Mobile](#mobile)
+-   [Final](#final)
 
 ## Windows
 
@@ -152,3 +153,7 @@ sudo pnpm inject
 ## Mobile
 
 -   Check this [repository](https://github.com/Discord-Client-Encyclopedia-Management/Discord3rdparties) for checking maintained client for mobile such as Android or iOS.
+
+## Final
+
+-   After installing you can now go to read [tutorial](tutorial.md) how to use fakeProfile.

@@ -31,13 +31,11 @@
 
 ## 🖥️Selection
 
-- [fakeProfile](#fakeprofile)
-  - [❓What is fakeProfile?](#what-is-fakeprofile)
-  - [🔨Installation](#installation)
-  - [❓Tutorial about plugin](#tutorial-about-plugin)
-  - [❔QnA](#qna)
-  - [👍Contributors](#contributors)
-  - [❤️Final words](#%EF%B8%8Ffinal-words)
+-   [fakeProfile](#fakeprofile)
+    -   [❓What is fakeProfile?](#what-is-fakeprofile)
+    -   [👍Contributors](#contributors)
+    -   [❤️Final words](#%EF%B8%8Ffinal-words)
+    -   [📘Wiki](#wiki)
 
 ## ❓What is fakeProfile?
 
@@ -48,47 +46,19 @@
 
 **fakeProfile** is a plugin for **Discord mod client** that supports all features related to nitro profile editing without need to use individual plugins to create a complete profile with features such as:
 
-> - ✅ Custom static and animated banner[^1] [^2].
-> - ✅ Custom static and animated avatar[^1] [^2].
-> - ✅ Choose Discord available badges or you can create your own badges[^1] [^3].
-> - ✅ Choose Discord/Custom profile effect[^1] [^2].
-> - ✅ Change theme profile color[^1] [^3].
-> - ✅ Select Discord/custom decorations[^1] [^2].
-> - ✅ Show **fakeProfile** plugin badges in chat[^1] [^3].
-> - ✅ We pride ourselves on our plugin being the **fastest** 🚀 and **fully automatic** 🔄 refresh every **2 minutes** from the latest request being approved without having to reload Discord or restart the client and of course you can also refetch the plugin manually(you'll need `VencordToolbox`(for Equicord users `EquicordToolbox`) if you don't want to wait[^1] [^3].
->   [^1]: This feature is only available to users of this plugin.
->   [^2]: The feature only works when other plugins related to this feature are disabled because other plugins can override that plugin's features on this plugin.
->   [^3]: This feature may work with some other plugins.
+> -   ✅ Custom static and animated banner[^1] [^2].
+> -   ✅ Custom static and animated avatar[^1] [^2].
+> -   ✅ Choose Discord available badges or you can create your own badges[^1] [^3].
+> -   ✅ Choose Discord/Custom profile effect[^1] [^2].
+> -   ✅ Change theme profile color[^1] [^3].
+> -   ✅ Select Discord/custom decorations[^1] [^2].
+> -   ✅ Show **fakeProfile** plugin badges in chat[^1] [^3].
+> -   ✅ We pride ourselves on our plugin being the **fastest** 🚀 and **fully automatic** 🔄 refresh every **2 minutes** from the latest request being approved without having to reload Discord or restart the client and of course you can also refetch the plugin manually(you'll need `VencordToolbox`(for Equicord users `EquicordToolbox`) if you don't want to wait[^1] [^3].
+>     [^1]: This feature is only available to users of this plugin.
+>     [^2]: The feature only works when other plugins related to this feature are disabled because other plugins can override that plugin's features on this plugin.
+>     [^3]: This feature may work with some other plugins.
 
-## 🔨Installation
-
-Look into [installation.md](/docs/installation.md) for installation information.
-
-## ❓Tutorial about plugin
-
-> [!NOTE]
-> You must join our Discord server to request banners, avatars and badges. You can **[click here](https://discord.gg/ffmkewQ4R7)** and it will take you straight to our Discord server.
-
-Look into [tutorial.md](/docs/tutorial.md) for tutorial information.
-
-## ❔QnA
-
-<details closed>
-<summary>Click to read</summary>
-<br>
-
-1. Can everyone in Discord see my profile?
-
-- No, everyone in Discord will not see your profile changes unless they also use the fakeProfile plugin.
-
-2. If I leave the Discord server, will everything on my profile be lost?
-
-- No, because your requests will be saved in the plugin's database, so if you leave the server, everything will not be affected.
-
-3. So what happens if I disable fakeProfile plugin?
-
-- Everything will return to the way it was before you used this plugin. Of course, you can still turn it back on if you want to use it, but if you don't want to use it anymore, you have the right to turn this plugin off.
-</details>
+## 📘Wiki
 
 ## 👍Contributors
 
