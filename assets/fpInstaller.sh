@@ -16,7 +16,7 @@ customClients() {
 
 vencordInstall() {
     git clone $VENCORD_URL
-    cd $VENCORD_DIRECTORY && sudo npm i -g pnpm && pnpm i
+    cd $VENCORD_DIRECTORY && pnpm i
     cd src/ && mkdir userplugins
     cd userplugins/ && git clone $FAKEPROFILE_URL && pnpm build
     customClients
