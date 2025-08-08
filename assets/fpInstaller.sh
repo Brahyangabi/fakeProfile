@@ -1,23 +1,21 @@
 #!/bin/sh
 
 LIBRARIES='git nodejs npm'
-VENCORD_DIRECTORY='Vencord/'
-VENCORD_URL='https://github.com/Vendicated/Vencord.git'
+VENCORD_DIRECTORY='Equicord/'
+VENCORD_URL='https://github.com/Equicord/Equicord.git'
 FAKEPROFILE_URL='https://github.com/gujarathisampath/fakeProfile.git'
 DISTRIB="$(python3 -c "import platform;print(platform.uname().node)")" #echo "Distribution: $DISTRIB" | And $DISTRIB is only working for linux :)
 
 customClientsPrint() {
-    echo "To apply your Vencord with fakeProfile you need to do these things:"
-    echo "Go to Settings -> Vesktop Settings -> Scroll down to Vesktop Location -> Choose dist/ folder from your Vencord Dev folder -> Restart client and done."
-    echo "You don't need to inject if you using Vesktop. Good luck."
+    echo "..."
 }
 
 customClients() {
     while true; do
-        read -p "Do you have Vesktop desktop client? [Y/N]: " yn
+        read -p "Do you have Equibop desktop client? [Y/N]: " yn
         case $yn in
             [Yy]* ) customClientsPrint; break;;
-            [Nn]* ) echo "Starting inject command then. Choose Install Vencord -> Path of installed Discord" && sudo pnpm inject; break;;
+            [Nn]* ) echo "Starting inject command then. Choose Install Equicord -> Path of installed Discord" && sudo pnpm inject; break;;
             * ) echo "Please answer yes or no.";;
         esac
     done
