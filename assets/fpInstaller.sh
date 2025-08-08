@@ -5,13 +5,9 @@ VENCORD_URL='https://github.com/Equicord/Equicord.git'
 FAKEPROFILE_URL='https://github.com/TheLumiDevs/fakeProfile.git'
 DISTRIB="$(python3 -c "import platform;print(platform.uname().node)")" #echo "Distribution: $DISTRIB" | And $DISTRIB is only working for linux :)
 
-customClientsPrint() {
-    echo "..."
-}
-
 customClients() {
-    echo "Equicord build was done, now you need manually do 'pnpm inject' command if you don't have Equibop desktop client."
-    echo "If you have Equibop desktop client: Settings -> Scroll down to end for 'Developer Options -> Open Developer Settings -> Choose dist from your Equicord build -> Reload fully Equibop to append changes"
+    echo "INFO: Equicord build was done, now you need manually do 'pnpm inject' command if you don't have Equibop desktop client."
+    echo "INFO: If you have Equibop desktop client: Settings -> Scroll down to end for 'Developer Options -> Open Developer Settings -> Choose dist from your Equicord build -> Reload fully Equibop to append changes"
 }
 
 vencordInstall() {
@@ -35,7 +31,7 @@ do
 done
 
 if [ -d "$EXIST_DIR" ]; then
-    echo "You have already installed Equicord, checking for updating..."
+    echo "WARN: You have already installed Equicord, checking for updating..."
     cd $EXIST_DIR && git pull
     pnpm i
     pnpm build;
