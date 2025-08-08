@@ -1,9 +1,8 @@
 #!/bin/sh
 
-LIBRARIES='git nodejs npm'
 VENCORD_DIRECTORY='Equicord/'
 VENCORD_URL='https://github.com/Equicord/Equicord.git'
-FAKEPROFILE_URL='https://github.com/gujarathisampath/fakeProfile.git'
+FAKEPROFILE_URL='https://github.com/TheLumiDevs/fakeProfile.git'
 DISTRIB="$(python3 -c "import platform;print(platform.uname().node)")" #echo "Distribution: $DISTRIB" | And $DISTRIB is only working for linux :)
 
 customClientsPrint() {
@@ -11,14 +10,8 @@ customClientsPrint() {
 }
 
 customClients() {
-    while true; do
-        read -p "Do you have Equibop desktop client? [Y/N]: " yn
-        case $yn in
-            [Yy]* ) customClientsPrint; break;;
-            [Nn]* ) echo "Starting inject command then. Choose Install Equicord -> Path of installed Discord" && sudo pnpm inject; break;;
-            * ) echo "Please answer yes or no.";;
-        esac
-    done
+    echo "Equicord build was done, now you need manually do 'pnpm inject' command if you don't have Equibop desktop client."
+    echo "If you have Equibop desktop client: Settings -> Scroll down to end for 'Developer Options -> Open Developer Settings -> Choose dist from your Equicord build -> Reload fully Equibop to append changes"
 }
 
 vencordInstall() {
@@ -48,15 +41,5 @@ if [ -d "$EXIST_DIR" ]; then
     pnpm i
     pnpm build;
 else
-    # Checks of distributions
-    # (It means it will work only for Arch Linux, but this will required for non-arch user to install these libraries)
-    #if [[ $DISTRIB == 'archlinux' ]]; then
-    #    sudo pacman -S $LIBRARIES
-    #else
-    #    echo "Looks like you're using not Arch Linux. Please install these libraries such as: $LIBRARIES. You need install it by commands that you have in your own distribution."
-    #    echo "P.S: In the next proccess you need type password from sudo command, which mean this script only for Linux users not Windows..."
-    #    read -n 1 -p "Press [Enter] if you did install of these libraries " mainmenuinput
-    #fi
-
     vencordInstall
 fi
