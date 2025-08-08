@@ -20,7 +20,6 @@ vencordInstall() {
     cd src/ && mkdir userplugins
     cd userplugins/ && git clone $FAKEPROFILE_URL && pnpm build
     customClients
-    break
 }
 
 EXIST_DIR=""
