@@ -60,6 +60,10 @@
 
 ## 📘Wiki
 
+For more information like as install and tutorial, QnA was moved to [wiki](https://github.com/TheLumiDevs/fakeProfile/wiki), please consider to read it.
+
+> https://github.com/TheLumiDevs/fakeProfile/wiki
+
 ## 👍Contributors
 
 Thanks for all your support for this project.
