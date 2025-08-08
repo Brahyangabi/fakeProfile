@@ -66,7 +66,7 @@ For more information like as install and tutorial, QnA was moved to [wiki](https
 
 ## 👍Contributors
 
-Thanks for all your support for this project.
+Thanks for support for this project:
 
 <p align="center">
   <a href="https://github.com/TheLumiDevs/fakeProfile/graphs/contributors" style="pointer-events: none; cursor: default;"><img src="https://contrib.rocks/image?repo=TheLumiDevs/fakeProfile" alt="Contributors" width="200">
