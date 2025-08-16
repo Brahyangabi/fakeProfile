@@ -64,6 +64,12 @@ For more information like as install and tutorial, QnA was moved to [wiki](https
 
 > https://github.com/TheLumiDevs/fakeProfile/wiki
 
+## ⚠️Disclaimer
+
+> [!WARNING]
+> - We are not responsible "if" you get **banned** from your discord client server if you use a third party build to get support. Clients **do not allow** open installation (uninstallation) and modification of plugins because they want to be able to easily control and debug their official plugins.
+> - We only accept support for plugins made by "ourselves" or other plugins that have features related to our plugins. Other plugins that are not related to us "absolutely" have the right to refuse support in our Discord server.  
+
 ## 👍Contributors
 
 Thanks for support for this project:
