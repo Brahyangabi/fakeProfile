@@ -130,13 +130,13 @@ export default definePlugin({
                 }
             ]
         },
-        {
-            find: "\"ProfileEffectStore\"",
-            replacement: {
-                match: /getProfileEffectById\((\i)\){return null!=\i\?(\i)\[\i\]:void 0/,
-                replace: "getProfileEffectById($1){return $self.getProfileEffectById($1, $2)"
-            }
-        },
+        //{
+        //    find: "\"ProfileEffectStore\"",
+        //    replacement: {
+        //        match: /getProfileEffectById\((\i)\){return null!=\i\?(\i)\[\i\]:void 0/,
+        //        replace: "getProfileEffectById($1){return $self.getProfileEffectById($1, $2)"
+        //    }
+        //},
         {
             find: "#{intl::ACCOUNT_SPEAKING_WHILE_MUTED}",
             replacement: [
@@ -177,9 +177,8 @@ export default definePlugin({
                     mergeData = {
                         ...mergeData,
                         profileEffect: {
-                            id: userData.profileEffectId,
                             expire: null,
-                            skuId: null,
+                            skuId: userData.profileEffectId,
                         }
                     };
                 }
