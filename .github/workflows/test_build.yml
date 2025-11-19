@@ -1,5 +1,7 @@
 name: Test Build
 description: Build the plugin to ensure it works with TypeScript Discord mod clients like Vencord.
+permissions:
+  contents: read
 
 on:
   push:
