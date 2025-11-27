@@ -6,6 +6,7 @@
   <a href="https://github.com/TheLumiDevs/fakeProfile"><img src="https://flagicons.lipis.dev/flags/4x3/us.svg" alt="en_US" width="25"></a>
   <br>
   <h6>Хотите перевести? Пожалуйста, сделайте форк и сделайте запрос вашего перевода.</h6>
+  <h6>Этот репозиторий является форком <a href="https://github.com/gujarathisampath/fakeProfile">основного fakeProfile</a>, пожалуйста оставьте звезду в нём.</h6>
 </div>
 
 <!-- MARKDOWN BADGED -->
