@@ -6,12 +6,11 @@
 
 import { enableStyle } from "@api/Styles";
 import { ErrorBoundary } from "@components/index";
-import { Devs } from "@utils/constants";
-import { Margins } from "@utils/margins";
 import { copyWithToast } from "@utils/discord";
+import { Margins } from "@utils/margins";
 import definePlugin from "@utils/types";
+import { User } from "@vencord/discord-types";
 import { Button, Toasts, UserStore } from "@webpack/common";
-import { User } from "discord-types/general";
 import virtualMerge from "virtual-merge";
 
 import style from "./index.css?managed";
@@ -62,7 +61,7 @@ export default definePlugin({
         {
             find: "#{intl::USER_SETTINGS_RESET_PROFILE_THEME}",
             replacement: {
-                match: /#{intl::USER_SETTINGS_RESET_PROFILE_THEME}\)}\)(?<=color:(\i),.{0,500}?color:(\i),.{0,500}?)/,
+                match: /#{intl::USER_SETTINGS_RESET_PROFILE_THEME}\).+?}\)(?=\])(?<=color:(\i),.{0,500}?color:(\i),.{0,500}?)/,
                 replace: "$&,$self.addCopy3y3Button({primary:$1,accent:$2})"
             }
         },
@@ -130,13 +129,6 @@ export default definePlugin({
                 }
             ]
         },
-        //{
-        //    find: "\"ProfileEffectStore\"",
-        //    replacement: {
-        //        match: /getProfileEffectById\((\i)\){return null!=\i\?(\i)\[\i\]:void 0/,
-        //        replace: "getProfileEffectById($1){return $self.getProfileEffectById($1, $2)"
-        //    }
-        //},
         {
             find: "#{intl::ACCOUNT_SPEAKING_WHILE_MUTED}",
             replacement: [
@@ -169,6 +161,7 @@ export default definePlugin({
     ],
     profileDecodeHook(user: UserProfile) {
         if (user) {
+            if (settings.store.nitroFirst && user.themeColors) return user;
             if (settings.store.enableProfileEffects || settings.store.enableProfileThemes) {
                 let mergeData: Partial<UserProfile> = {};
                 const userData = useUsersProfileStore.getState().get(user.userId);
