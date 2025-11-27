@@ -161,7 +161,6 @@ export default definePlugin({
     ],
     profileDecodeHook(user: UserProfile) {
         if (user) {
-            if (settings.store.nitroFirst && user.themeColors) return user;
             if (settings.store.enableProfileEffects || settings.store.enableProfileThemes) {
                 let mergeData: Partial<UserProfile> = {};
                 const userData = useUsersProfileStore.getState().get(user.userId);
