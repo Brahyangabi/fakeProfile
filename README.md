@@ -8,6 +8,7 @@
   <a href="./docs/ru/README.md"><img src="https://flagicons.lipis.dev/flags/4x3/ru.svg" alt="ru_RU" width="25"></a>
   <br>
   <h6>Wanna translate? Please fork and make pull request your translate repo.</h6>
+  <h6>This repository is fork of <a href="https://github.com/gujarathisampath/fakeProfile">main fakeProfile</a>, please leave a star here.</h6>
 </div>
 
 <!-- MARKDOWN BADGED -->
@@ -68,7 +69,7 @@ For more information like as install and tutorial, QnA was moved to [wiki](https
 
 > [!WARNING]
 > - We are not responsible "if" you get **banned** from your discord client server if you use a third party build to get support. Clients **do not allow** open installation (uninstallation) and modification of plugins because they want to be able to easily control and debug their official plugins.
-> - We only accept support for plugins made by "ourselves" or other plugins that have features related to our plugins. Other plugins that are not related to us "absolutely" have the right to refuse support in our Discord server.  
+> - We only accept support for plugins made by "ourselves" or other plugins that have features related to our plugins. Other plugins that are not related to us "absolutely" have the right to refuse support in our Discord server.
 
 ## 👍Contributors
 
