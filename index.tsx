@@ -8,7 +8,7 @@ import { enableStyle } from "@api/Styles";
 import { ErrorBoundary } from "@components/index";
 import { Devs } from "@utils/constants";
 import { Margins } from "@utils/margins";
-import { copyWithToast } from "@utils/misc";
+import { copyWithToast } from "@utils/discord";
 import definePlugin from "@utils/types";
 import { Button, Toasts, UserStore } from "@webpack/common";
 import { User } from "discord-types/general";
