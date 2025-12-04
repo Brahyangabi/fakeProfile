@@ -213,4 +213,3 @@ export function useUserAvatarDecoration(user?: User): Decoration | null | undefi
 
     return null;
 }
-
