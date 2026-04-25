@@ -67,7 +67,7 @@ export const useUsersProfileStore = proxyLazy(() => zustandCreate((set: any, get
                 userBadges.forEach(badge => {
                     const newBadge = {
                         iconSrc: badge.badge,
-                        id: "new_badges_profile_badge"
+                        id: "new_badges_profile_badge",
                         description: badge.tooltip,
                         position: BadgePosition.START,
                         shouldShow: ({ userId: badgeUserId }) => badgeUserId === userId,
